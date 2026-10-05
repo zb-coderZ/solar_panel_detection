@@ -1,0 +1,45 @@
+{
+  "test_accuracy": 0.8175182481751825,
+  "test_loss": 0.658536434173584,
+  "num_images": 907,
+  "train_images": 634,
+  "val_images": 136,
+  "test_images": 137,
+  "image_size": [
+    224,
+    224
+  ],
+  "backbone": "MobileNetV2 (ImageNet pre-trained, PyTorch)",
+  "per_class": {
+    "Bird-drop": {
+      "precision": 0.8214285714285714,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.7931034482758621
+    },
+    "Clean": {
+      "precision": 0.8235294117647058,
+      "recall": 0.9032258064516129,
+      "f1-score": 0.8615384615384616
+    },
+    "Dusty": {
+      "precision": 0.7586206896551724,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7096774193548387
+    },
+    "Electrical-damage": {
+      "precision": 0.7222222222222222,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.8125
+    },
+    "Physical-Damage": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8
+    },
+    "Snow-Covered": {
+      "precision": 1.0,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.972972972972973
+    }
+  }
+}
