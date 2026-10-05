@@ -1,0 +1,13 @@
+# Tested on Python 3.14.2 (works on 3.10 to 3.14 except 3.14.1, which torchvision excludes)
+torch>=2.9
+torchvision>=0.24
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+Pillow
+opencv-python-headless
+streamlit>=1.50
+kagglehub
+ipykernel
